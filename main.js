@@ -6,7 +6,7 @@ const dbHelper=require('./helpers/helper')
 const { getBookList,createBook, fetchSingleBook, updateBook, deleteBook } = require('./book/controller/book-controller')
 
 app.get('/', (req, res) => {
-  res.send('Hello World! simha')
+  res.send('Hello World! Ganesh')
 })
 app.use(bodyParser.json());
 app.listen(port, (err) => {
